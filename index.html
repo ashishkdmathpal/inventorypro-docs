@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>InventoryPro - Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="InventoryPro - Multi-tenant Inventory Management System for Manufacturers">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Docsify Theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+  <!-- Custom Styles (Light Theme) -->
+  <style>
+    :root {
+      --theme-color: #3b82f6;
+      --base-background-color: #ffffff;
+      --sidebar-width: 280px;
+    }
+
+    /* Force light theme */
+    body {
+      background-color: #ffffff !important;
+      color: #1e293b !important;
+    }
+
+    .sidebar {
+      background-color: #f8fafc !important;
+      border-right: 1px solid #e2e8f0 !important;
+    }
+
+    .sidebar-nav {
+      padding: 1rem !important;
+    }
+
+    .sidebar-nav li a {
+      color: #334155 !important;
+      font-weight: 500 !important;
+    }
+
+    .sidebar-nav li a:hover {
+      color: #3b82f6 !important;
+    }
+
+    .sidebar-nav li.active > a {
+      color: #3b82f6 !important;
+      border-right: 3px solid #3b82f6 !important;
+    }
+
+    .markdown-section {
+      background-color: #ffffff !important;
+      max-width: 900px !important;
+    }
+
+    .markdown-section h1 {
+      color: #0f172a !important;
+      font-weight: 700 !important;
+      border-bottom: 2px solid #e2e8f0 !important;
+      padding-bottom: 0.5rem !important;
+    }
+
+    .markdown-section h2 {
+      color: #1e293b !important;
+      font-weight: 600 !important;
+      margin-top: 2rem !important;
+    }
+
+    .markdown-section h3 {
+      color: #334155 !important;
+      font-weight: 600 !important;
+    }
+
+    .markdown-section p {
+      color: #475569 !important;
+      line-height: 1.7 !important;
+    }
+
+    .markdown-section a {
+      color: #3b82f6 !important;
+    }
+
+    .markdown-section a:hover {
+      text-decoration: underline !important;
+    }
+
+    /* Tables */
+    .markdown-section table {
+      width: 100% !important;
+      border-collapse: collapse !important;
+    }
+
+    .markdown-section table th {
+      background-color: #f1f5f9 !important;
+      color: #1e293b !important;
+      font-weight: 600 !important;
+      padding: 0.75rem 1rem !important;
+      text-align: left !important;
+    }
+
+    .markdown-section table td {
+      border: 1px solid #e2e8f0 !important;
+      padding: 0.75rem 1rem !important;
+      color: #475569 !important;
+    }
+
+    .markdown-section table tr:hover td {
+      background-color: #f8fafc !important;
+    }
+
+    /* Code */
+    .markdown-section code {
+      background-color: #f1f5f9 !important;
+      color: #be185d !important;
+      padding: 0.2rem 0.4rem !important;
+      border-radius: 4px !important;
+      font-size: 0.9em !important;
+    }
+
+    .markdown-section pre {
+      background-color: #1e293b !important;
+      border-radius: 8px !important;
+      padding: 1rem !important;
+    }
+
+    .markdown-section pre code {
+      background-color: transparent !important;
+      color: #e2e8f0 !important;
+    }
+
+    /* Images */
+    .markdown-section img {
+      border-radius: 8px !important;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+      max-width: 100% !important;
+      margin: 1rem 0 !important;
+    }
+
+    /* Blockquotes */
+    .markdown-section blockquote {
+      border-left: 4px solid #3b82f6 !important;
+      background-color: #eff6ff !important;
+      padding: 1rem !important;
+      margin: 1rem 0 !important;
+      border-radius: 0 8px 8px 0 !important;
+    }
+
+    .markdown-section blockquote p {
+      color: #1e40af !important;
+      margin: 0 !important;
+    }
+
+    /* Lists */
+    .markdown-section ul, .markdown-section ol {
+      color: #475569 !important;
+    }
+
+    .markdown-section li {
+      margin: 0.5rem 0 !important;
+    }
+
+    /* Search */
+    .search input {
+      border: 1px solid #e2e8f0 !important;
+      border-radius: 8px !important;
+      padding: 0.5rem 1rem !important;
+    }
+
+    .search input:focus {
+      border-color: #3b82f6 !important;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+    }
+
+    /* App name in sidebar */
+    .app-name-link {
+      font-weight: 700 !important;
+      color: #0f172a !important;
+      font-size: 1.25rem !important;
+    }
+
+    /* Cover page */
+    .cover {
+      background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%) !important;
+    }
+
+    .cover h1 {
+      color: #ffffff !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading documentation...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'InventoryPro',
+      repo: '',
+      loadSidebar: '_sidebar.md',
+      subMaxLevel: 3,
+      auto2top: true,
+      search: {
+        placeholder: 'Search documentation...',
+        noData: 'No results found',
+        paths: 'auto',
+        depth: 3
+      },
+      themeColor: '#3b82f6',
+      notFoundPage: true,
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true
+      }
+    }
+  </script>
+
+  <!-- Docsify Core -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
