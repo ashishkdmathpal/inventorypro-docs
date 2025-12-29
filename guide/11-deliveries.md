@@ -109,7 +109,7 @@ Generate shipping documentation:
 
 ## Delivery Calendar
 
-View deliveries in calendar format (see [Schedule](12-schedule.md)):
+View deliveries in calendar format (see [Schedule](12-schedule)):
 
 - Scheduled shipments
 - In-transit deliveries

@@ -27,21 +27,21 @@ InventoryPro is a modern, full-featured inventory management solution designed s
 
 | I want to... | Go to |
 |--------------|-------|
-| Get started | [Introduction](guide/01-introduction.md) |
-| Log in to the system | [Authentication](guide/02-authentication.md) |
-| View my dashboard | [Dashboard](guide/03-dashboard.md) |
-| Manage raw materials | [Materials](guide/04-materials.md) |
-| Manage finished products | [SKUs](guide/05-skus.md) |
-| Create product recipes | [Bill of Materials](guide/06-boms.md) |
-| Track production | [Production Jobs](guide/07-jobs.md) |
-| Plan material needs | [MRP Planning](guide/08-mrp.md) |
-| Track inventory | [Inventory Management](guide/09-inventory.md) |
-| Manage customers | [Customers](guide/10-customers.md) |
-| Schedule deliveries | [Deliveries](guide/11-deliveries.md) |
-| View calendar | [Schedule](guide/12-schedule.md) |
-| Generate reports | [Reports](guide/13-reports.md) |
-| Configure system | [Settings](guide/14-settings.md) |
-| View activity logs | [Audit Logs](guide/15-audit-logs.md) |
+| Get started | [Introduction](guide/01-introduction) |
+| Log in to the system | [Authentication](guide/02-authentication) |
+| View my dashboard | [Dashboard](guide/03-dashboard) |
+| Manage raw materials | [Materials](guide/04-materials) |
+| Manage finished products | [SKUs](guide/05-skus) |
+| Create product recipes | [Bill of Materials](guide/06-boms) |
+| Track production | [Production Jobs](guide/07-jobs) |
+| Plan material needs | [MRP Planning](guide/08-mrp) |
+| Track inventory | [Inventory Management](guide/09-inventory) |
+| Manage customers | [Customers](guide/10-customers) |
+| Schedule deliveries | [Deliveries](guide/11-deliveries) |
+| View calendar | [Schedule](guide/12-schedule) |
+| Generate reports | [Reports](guide/13-reports) |
+| Configure system | [Settings](guide/14-settings) |
+| View activity logs | [Audit Logs](guide/15-audit-logs) |
 
 ## Technology Stack
 
@@ -53,4 +53,4 @@ InventoryPro is a modern, full-featured inventory management solution designed s
 
 ## Getting Started
 
-Ready to begin? Head over to the [Introduction](guide/01-introduction.md) to learn about the system architecture and core concepts.
+Ready to begin? Head over to the [Introduction](guide/01-introduction) to learn about the system architecture and core concepts.
