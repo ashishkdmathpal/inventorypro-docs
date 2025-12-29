@@ -45,10 +45,10 @@ Materials → BOM → Production Job → Finished SKU → Delivery
 
 To begin using InventoryPro:
 
-1. [Register or log in](02-authentication) to your account
-2. Explore the [Dashboard](03-dashboard) for an overview
-3. Add your [Materials](04-materials) and [SKUs](05-skus)
-4. Create your first [Bill of Materials](06-boms)
+1. [Register or log in](/guide/02-authentication) to your account
+2. Explore the [Dashboard](/guide/03-dashboard) for an overview
+3. Add your [Materials](/guide/04-materials) and [SKUs](/guide/05-skus)
+4. Create your first [Bill of Materials](/guide/06-boms)
 
 ## Need Help?
 

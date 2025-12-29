@@ -88,7 +88,7 @@ SKUs follow a lifecycle:
 
 ## Linking to BOMs
 
-Each SKU can have one or more Bill of Materials (BOMs) that define how to manufacture it. See [Bill of Materials](06-boms) for details.
+Each SKU can have one or more Bill of Materials (BOMs) that define how to manufacture it. See [Bill of Materials](/guide/06-boms) for details.
 
 ## Inventory Tracking
 
