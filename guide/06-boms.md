@@ -56,6 +56,17 @@ For each material in the recipe:
 4. Add material lines with quantities
 5. Click **Create BOM**
 
+## BOM Detail View
+
+![BOM Detail](../images/30-bom-detail.png)
+
+Click on any BOM row to view complete details:
+
+- Full recipe with all material lines
+- Quantities and scrap percentages
+- Version history
+- Associated production jobs
+
 ## BOM Versioning
 
 BOMs support version control for recipe changes:

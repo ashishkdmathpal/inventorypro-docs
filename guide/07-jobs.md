@@ -59,6 +59,17 @@ The jobs page shows all production orders:
 4. Review material requirements
 5. Click **Create Job**
 
+## Job Detail View
+
+![Job Detail](../images/31-job-detail.png)
+
+Click on any job row to view complete details:
+
+- Job status and progress
+- Material allocations and availability
+- Production timeline
+- Activity history
+
 ## Material Allocation
 
 When a job is created, materials are automatically calculated:

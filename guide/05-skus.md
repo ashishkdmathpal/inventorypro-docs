@@ -55,6 +55,17 @@ The SKUs page shows all your products with essential details:
 3. Add pricing and optional details
 4. Click **Create SKU**
 
+## SKU Detail View
+
+![SKU Detail](../images/29-sku-detail.png)
+
+Click on any SKU row to view complete details including:
+
+- Full product information
+- Associated BOMs
+- Inventory levels
+- Production history
+
 ## SKU Categories
 
 Organize products by category:

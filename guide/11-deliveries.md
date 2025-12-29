@@ -29,6 +29,8 @@ View all deliveries with tracking information:
 
 ## Creating a New Delivery
 
+![Delivery Form](../images/33-delivery-form.png)
+
 ### Header Information
 
 | Field | Description |

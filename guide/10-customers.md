@@ -27,6 +27,8 @@ View all customers with key details:
 
 ## Adding a New Customer
 
+![Customer Form](../images/32-customer-form.png)
+
 ### Required Fields
 
 | Field | Description |

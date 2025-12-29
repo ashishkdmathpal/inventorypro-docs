@@ -55,6 +55,17 @@ The materials page displays all your raw materials with key information:
 3. Add optional details as needed
 4. Click **Create Material**
 
+## Material Detail View
+
+![Material Detail](../images/28-material-detail.png)
+
+Click on any material row to view its full details including:
+
+- Complete material information
+- Stock levels and batch history
+- Transaction history
+- Related BOMs using this material
+
 ## Editing Materials
 
 1. Click on a material row to open details
